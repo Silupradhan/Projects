@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px 0px; */
+    height: 80px;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    
+  }
+  ul li{
+    padding: 20px;
+    list-style-type: none;
+  }
+  
+  ul li a
+  {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .btn{
+    padding: 7px 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
