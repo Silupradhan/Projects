@@ -1,16 +1,12 @@
-import './App.css'
-import Hero from './components/heroSection/Hero'
-import Navbar from "./components/Navigation/Navbar"
+import React from 'react'
+import "./App.css"
+import RandomColor from './components/RandomColor'
 
-function App() {
-
+const App = () => {
   return (
     <>
-    <div className='container'>
-    <Navbar/>
-      <Hero/>
+     <RandomColor/>
 
-    </div>
     </>
   )
 }
