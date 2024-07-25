@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import LoadProduct from './components/LoadProduct'
+import QrCodeGen from './components/QrCodeGen'
 
 const App = () => {
   return (
     <>
-    <LoadProduct/>
+    <QrCodeGen/>
     </>
   )
 }
