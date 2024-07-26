@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import ScrollIndicator from './components/ScrollIndicator'
+import FormValidator from './components/FormValidator'
 
 const App = () => {
   return (
     <>
-    <ScrollIndicator/>
+    <FormValidator/>
     </>
   )
 }
