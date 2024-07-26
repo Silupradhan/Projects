@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import QrCodeGen from './components/QrCodeGen'
+import ScrollIndicator from './components/ScrollIndicator'
 
 const App = () => {
   return (
     <>
-    <QrCodeGen/>
+    <ScrollIndicator/>
     </>
   )
 }
