@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import JokeGenrator from './components/JokeGenrator'
+import PassValidator from './components/PassValidator'
 
 const App = () => {
   return (
     <>
-    <JokeGenrator/>
+    <PassValidator/>
     </>
   )
 }
