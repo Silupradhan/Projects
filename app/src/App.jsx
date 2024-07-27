@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import PassValidator from './components/PassValidator'
+import TempController from './components/TempController'
 
 const App = () => {
   return (
     <>
-    <PassValidator/>
+    <TempController/>
     </>
   )
 }
