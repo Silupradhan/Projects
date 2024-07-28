@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import TempController from './components/TempController'
+import SearchData from './components/SearchData'
 
 const App = () => {
   return (
     <>
-    <TempController/>
+    <SearchData/>
     </>
   )
 }
