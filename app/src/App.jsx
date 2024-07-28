@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
-import SearchData from './components/SearchData'
+import Quiz from './components/Quiz'
 
 const App = () => {
   return (
     <>
-    <SearchData/>
+    <Quiz/>
     </>
   )
 }
